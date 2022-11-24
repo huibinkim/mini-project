@@ -1,0 +1,57 @@
+*{ margin:0; padding:0; }
+a{ text-decoration: none; color:#333333; }
+li{ list-style: none; }
+img{ border:none; vertical-align: middle; }
+
+/* 공통 */
+@import url(components.css);
+@font-face {font-family: 'kyobo';font-style: normal;font-weight: 800;src: url(../font/KyoboLifeAhtHintBBold.eot) ;}
+@font-face {font-family: 'kyobo';font-style: normal;font-weight: 400;src: url(../font/KyoboLifeAhtHintBRegular.eot) ;}
+@font-face {font-family: 'kyobo';font-style: normal;font-weight: 600;src: url(../font/KyoboLifeAhtHintBRegular.eot) ;}
+
+[v-cloak] {
+    display: none;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+}
+body, h1, h2, h3, h4, h5, h6, input, textarea, select { font-family: 'kyobo' !important; }
+body{color:#191919;letter-spacing: -.05em;font-weight: 400;font-size:14px}
+header, section, footer, article, nav, aside {display:block}
+/* reset */
+ol,ul,li,p,dt,dd,p,dl{list-style: none;padding:0;margin:0}
+
+i,em{font-style: normal;}
+table caption{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -9999em;
+  width: 0;
+  height: 0;
+  font-size: 0;
+  overflow: hidden;
+}
+.none{display: none;}
+.mt1{margin-top: 1rem !important;}
+.mt2{margin-top: 2rem !important;}
+.mt3{margin-top: 3rem !important;}
+.mt4{margin-top: 4rem !important;}
+.mt5{margin-top: 5rem !important;}
+.mb1{margin-bottom: 1rem !important;}
+.mb2{margin-bottom: 2rem !important;}
+.mb3{margin-bottom: 3rem !important;}
+.mb4{margin-bottom: 4rem !important;}
+.mb5{margin-bottom: 5rem !important;}
+
+.pt1{padding-top: 1rem !important;}
+.pt2{padding-top: 2rem !important;}
+.pt3{padding-top: 3rem !important;}
+.pt4{padding-top: 4rem !important;}
+.pt5{padding-top: 5rem !important;}
+.pb1{padding-bottom: 1rem !important;}
+.pb2{padding-bottom: 2rem !important;}
+.pb3{padding-bottom: 3rem !important;}
+.pb4{padding-bottom: 4rem !important;}
+.pb5{padding-bottom: 5rem !important;}
